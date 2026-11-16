@@ -1,0 +1,33 @@
+{
+  "opis": "Dane testowe: trzy krotkie linie",
+  "wersja_danych": "test",
+  "liczba_linii": 3,
+  "linie": [
+    {
+      "linia": "2",
+      "przystanki": [
+        {"nazwa": "Alfa", "lat": 50.0, "lon": 20.0},
+        {"nazwa": "Beta", "lat": 50.0, "lon": 20.01},
+        {"nazwa": "Gamma", "lat": 50.01, "lon": 20.01}
+      ],
+      "trasa": [[50.0, 20.0], [50.0, 20.01], [50.01, 20.01]]
+    },
+    {
+      "linia": "10",
+      "przystanki": [
+        {"nazwa": "Beta", "lat": 50.0, "lon": 20.01},
+        {"nazwa": "Delta", "lat": 49.99, "lon": 20.01}
+      ],
+      "trasa": [[50.0, 20.01], [49.995, 20.01], [49.99, 20.01]]
+    },
+    {
+      "linia": "3",
+      "przystanki": [
+        {"nazwa": "Alfa", "lat": 50.0, "lon": 20.0},
+        {"nazwa": "Beta", "lat": 50.0, "lon": 20.01},
+        {"nazwa": "Delta", "lat": 49.99, "lon": 20.01}
+      ],
+      "trasa": [[50.0, 20.0], [50.0, 20.01], [49.99, 20.01]]
+    }
+  ]
+}
